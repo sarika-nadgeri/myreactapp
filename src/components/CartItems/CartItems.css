@@ -1,0 +1,120 @@
+.cartitems{
+    margin: 80px;
+}
+.cartitems hr{
+   height: 3px;
+   background: #e2e2e2;
+   border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    width: 80px;
+}
+.carticon-remove-icon{
+    width: 15px;
+    cursor: pointer;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+.cartitems-total button{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: #555;
+}
+.cartitems-promobox{
+    margin-top: 15px;
+}
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background-color: #eaeaea;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.cartitems-promobox button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.cartitems-total-item p{
+    margin: 0px;
+}
+.cartitems hr{
+    margin: 0px;
+}
+@media only screen and (min-width: 601px) {
+    .cartitems-down.row .cartitems-promocode{
+        padding-left: 100px;
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .offers-left h1 {
+        font-size: 50px;
+    }
+    .cartitems-total button{
+        font-size: 18px;
+        height: 45px;
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 601px) {
+    .cartitems-down.row .cartitems-promocode{
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .cartitems-format-main{
+        font-size: 14px;
+    }
+    .carticon-remove-icon{
+        width: 13px;
+    }
+}
